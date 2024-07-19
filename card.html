@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            position: relative;
+            width: 600px;
+            height: 600px;
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            margin-top: 40px;
+            border: 2px;
+            background-color: rgb(70, 57, 76);
+            border-radius: 20px;
+        }
+
+        .white {
+            position: absolute;
+            width: 50%;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .blue {
+            position: relative;
+            top: 0;
+            left: 0;
+            background-color: rgb(38, 44, 60);
+            height: 40%;
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        img {
+            width: 70%;
+            border-radius: 50%;
+        }
+
+        .blue .box p{
+          
+           padding: 9px;
+            padding-top: 10px;
+            font-size: x-large;
+            font-weight: 800;
+            background-color: rgb(70, 57, 76);
+            margin-top: 50%;
+            margin-left: 33%;
+            margin-right: 20%;
+            margin-bottom: 20px;
+          }
+        .space {
+            display: flex;
+           gap:20px;
+            height: 40px;
+            justify-content: center;
+           text-align: center;
+        }
+
+        .btn {
+            background-color:rgb(37, 15, 62);
+            color: aliceblue;
+            border-radius: 20px;
+            margin-left: 140px;
+            margin-top: 50px;
+            height: 20%;
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="blue">
+            <div class="white">
+                <img src="https://i.pinimg.com/736x/a3/7b/e5/a37be5b9709175f1527761157463ec38.jpg" alt="">
+            </div>
+            <div class="box">
+                <p >Frontend developer <br><br>
+                   Tech job - Teacher <br>
+            </div>
+            <div class="space">
+                <i class="fa-brands fa-linkedin fa-3x"></i> <i class="fa-brands fa-github fa-3x"></i> <i
+                    class="fa-solid fa-envelope fa-3x"></i>
+            </div>
+            </p>
+            <button type="submit" class="btn">Manage</button>
+
+        </div>
+    </div>
+</body>
+
+</html>
